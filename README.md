@@ -9,3 +9,16 @@ The work you do in the Sandbox will be saved from lesson to lesson, and is autom
 Please DO NOT touch this repository in GitHub, as it will affect your Sandbox experience, and potentially cause your work to be out of sync.
 
 To learn more about the Sandbox, please visit http://help.learn.co/ide-in-browser#sandbox.
+function getData(){
+  console.log("2. Returning instantly available data.")
+  return [{name: "Dobby the House-Elf"}, {name: "Nagini"}]
+}
+ 
+function main(){
+  console.log("1. Starting Script")
+  const data = getData()
+  console.log(`3. Data is currently ${JSON.stringify(data)}`)
+  console.log("4. Script Ended")
+}
+ 
+main();
